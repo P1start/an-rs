@@ -1,0 +1,7 @@
+[package]
+name = "an"
+version = "0.0.2"
+authors = ["P1start"]
+description = """
+A library that determines which of ‘a’ or ‘an’ to precede a given word with.
+"""
