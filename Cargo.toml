@@ -1,7 +1,10 @@
 [package]
 name = "an"
-version = "0.0.2"
-authors = ["P1start"]
+version = "0.0.3"
+authors = ["P1start", "Kang Seonghoon <public+rust@mearie.org>"]
 description = """
 A library that determines which of ‘a’ or ‘an’ to precede a given word with.
 """
+
+[dependencies.soundchange-english]
+git = "https://github.com/lifthrasiir/rust-soundchange"
